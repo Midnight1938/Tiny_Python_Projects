@@ -15,12 +15,13 @@ i = 0
 
 while i in range(Lines):
     Text = str(input("Input text in your para number {}: ".format(i+1)))
-    lines += Text+"\n"
+    lines += Text+" \n"
     i += 1
 
 Split_lines = lines.split("\n")
 Split_words = lines.split(" ")
 
+
 print(lines)
 print("The text is {} words and spans {} lines".format(
-    len(Split_words)+1, len(Split_lines)-1))
+    len(Split_words)-1, len(Split_lines)-1))
