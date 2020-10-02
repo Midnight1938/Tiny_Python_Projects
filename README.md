@@ -1,9 +1,9 @@
 # Python Files, That might be useful
 
-## Just trying to see if this works too
+## Just working things out
 
 ## Things included in this:
-- A simple calculator
+- Simple calculators
 - Counters
 - American to normal converter
 - Permutation machine (doesnt do so well with large possibilities)
