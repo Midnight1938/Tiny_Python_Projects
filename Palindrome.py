@@ -1,5 +1,6 @@
-
 def isPalindrome(s):
+    s = s.upper()
+    s = "".join(s.split())
     return "Palindrome Detected" if s == s[::-1] else "Not a Palindrome"
  
  
@@ -22,5 +23,3 @@ elif Asker == 2:
     string = str(input("Enter your textline: "))
     print("User input is", string, '\n')
     print(isPalindrome(string.upper()))
-    
-    
