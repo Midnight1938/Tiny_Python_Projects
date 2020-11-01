@@ -2,7 +2,7 @@
 
 ## Just working things out
 
-## Things included in this:
+## Things included in this
 
 - Simple calculators
 - Counters
