@@ -52,7 +52,7 @@ def Sum_Of_Digits(Number):
     Sum = 0
     while(Number > 0):
         Reminder = Number % 10
-			print(Remainder)
+			print(Reminder)
         Sum = Sum + Reminder
 			print(Sum)        
         Number = Number //10
