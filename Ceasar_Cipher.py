@@ -23,7 +23,7 @@ def ceasar(s, k):
                 else: # alphabet.
                     yield o + k % 26 -26
     except: 
-        print(text_thing, 'contains things that isnt alpha numeric')
+        print(text_thing, 'What just happened?')
 
 
 text_thing = str(input('Enter your text: '))
