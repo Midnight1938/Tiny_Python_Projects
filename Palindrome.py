@@ -1,6 +1,5 @@
 def isPalindrome(s):
-    s = s.upper()
-    s = "".join(s.split())
+    s = (s.upper()).replace(" ", "")
     return "Palindrome Detected" if s == s[::-1] else "Not a Palindrome"
  
  
@@ -21,5 +20,5 @@ if Asker == 1:
 # * Check for own input #
 elif Asker == 2:
     string = str(input("Enter your textline: "))
-    print("User input is", string, '\n')
+    print("User input is:", string, '\n')
     print(isPalindrome(string.upper()))
