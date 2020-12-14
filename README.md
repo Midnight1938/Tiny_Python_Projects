@@ -12,3 +12,6 @@
 - Number and type checkers
 - Palindrome checker (doesnt care about capitalisation or spaces)
 - A Ceasar Cipher algorithm
+- Fractals
+- Leap year checker
+- Turns sentence into mocking

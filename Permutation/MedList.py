@@ -10,4 +10,3 @@ MedList.sort()
 mid = len(MedList) // 2
 res = (MedList[mid] + MedList[~mid]) / 2
 print("Median of MedList is {}".format(res))
-    

@@ -10,7 +10,3 @@ def Sum_Of_Digits(Number):
 Number = int(input("Please Enter any Number: "))
 Sum = Sum_Of_Digits(Number)
 print("\n Sum of the digits of Given Number = %d" %Sum)
-
-# find a word in a word
-str = "Amazing World of Python"
-print(str.find("y"))
