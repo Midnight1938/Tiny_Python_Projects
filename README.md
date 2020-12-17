@@ -15,3 +15,5 @@
 - Fractals
 - Leap year checker
 - Turns sentence into mocking
+- Make a list and look for a number in it
+- JSON format subject marks
