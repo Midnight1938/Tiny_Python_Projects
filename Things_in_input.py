@@ -1,12 +1,12 @@
-def Count(str):
+def Count(stru):
     # ** Types of characters #
     upper, lower, number, special = 0, 0, 0, 0
-    for i in range(len(str)):
-        if str[i].isupper():
+    for i in range(len(stru)):
+        if stru[i].isupper():
             upper += 1
-        elif str[i].islower():
+        elif stru[i].islower():
             lower += 1
-        elif str[i].isdigit():
+        elif stru[i].isdigit():
             number += 1
         else:
             special += 1
@@ -18,18 +18,18 @@ def Count(str):
 
 
 # * Example input #
-str = "Thi5isMet35ing@codes"
+string = "Thi5isMet35ing@codes"
 
 # Driver Code
 Asker = int(input("Prebuilt[1] or personal[2]? Choose 1 or 2: "))
 if Asker == 1:
-    print('default input is', str)
-    Count(str)
+    print('\nDefault input is', string)
+    Count(string)
 # * Check for own input #
 elif Asker == 2:
-    str = input("Enter your textline: ")
-    print("User input is", str)
-    Count(str)
+    string = str(input("Enter your textline: "))
+    print("\nUser input is", string)
+    Count(string)
 
 else:
     print("Had to choose one of the given ones")
