@@ -1,3 +1,5 @@
+
+# ! Check LeapYear
 def isYearLeap(year):
 
     if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
@@ -5,7 +7,7 @@ def isYearLeap(year):
     else:
         return False
 
-
+# ! End of Month Check
 def daysInMonth(year, month):
 
     if isYearLeap(year) and month == 2:
