@@ -3,9 +3,6 @@ import time
 import pygame
 import keyboard
 from time import sleep
-import sys
-import numpy as np
-import math as mh
 
 
 start_time = time.time()

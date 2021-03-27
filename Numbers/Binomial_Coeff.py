@@ -1,4 +1,3 @@
-import math 
 
 # ! In mathematics, the binomial coefficients are 
 # ! the positive integers that occur as coefficients in the binomial theorem. 
