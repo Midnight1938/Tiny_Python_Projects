@@ -15,5 +15,3 @@ def Sawp_n_star(str):
 
 print("\n")    
 Sawp_n_star(text)
-
-
