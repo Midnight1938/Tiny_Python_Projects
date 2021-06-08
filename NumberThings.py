@@ -29,7 +29,7 @@ total = 0
 for value in range(1, number+1):
 	total = total+value
 
-print("The sum of numbers from 0 to {1} is {2}".format(number, total))
+print("The sum of numbers from 0 to {0} is {1}".format(number, total))
 
 
 ###---Factorial--###
@@ -44,7 +44,7 @@ elif number == 0:
 else:
 	for i in range(1, number+1):
 		factorial = factorial*i
-	print("The factorial of {1} is {2}".format(number, factorial))
+	print("The factorial of {0} is {1}".format(number, factorial))
 
 
 ###---Factorial--###
