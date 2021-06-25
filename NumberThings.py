@@ -1,3 +1,4 @@
+#%%
 ##Fibbothing
 
 nterms = int(input("How many terms? "))
@@ -20,7 +21,7 @@ else:
 		n1 = n2
 		n2 = nth
 		count += 1	
-
+#%%
 ###---n natural number sum--###
 number = int(input("Please enter number: "))
 
@@ -31,7 +32,7 @@ for value in range(1, number+1):
 
 print("The sum of numbers from 0 to {0} is {1}".format(number, total))
 
-
+#%%
 ###---Factorial--###
 number = int(input("Please enter number: "))
 
@@ -46,7 +47,7 @@ else:
 		factorial = factorial*i
 	print("The factorial of {0} is {1}".format(number, factorial))
 
-
+#%%
 ###---Factorial--###
 def Sum_Of_Digits(Number):
     Sum = 0
@@ -57,7 +58,6 @@ def Sum_Of_Digits(Number):
 			print(Sum)        
         Number = Number //10
     return Sum
-
 Number = int(input("Please Enter any Number: "))
 Sum = Sum_Of_Digits(Number)
 print("\n Sum of the digits of Given Number = %d" %Sum)
