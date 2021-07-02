@@ -11,17 +11,18 @@ def factorialFn(n):
         BASE_Fract.append(total)
     return total
 
-def Combinn(n,r):
+def Combination(n,r):
     return factorialFn(n)/(factorialFn(r)*(factorialFn(n-r)))
 
 def main():
-    # TODO Human Imput: n = int(input("Total number of objects: "))
-    # TODO Human Imput: r = int(input("Number of choosing objects: "))
+    # TODO Human Input: n = int(input("Total number of objects: "))
+    # TODO Human Input: r = int(input("Number of choosing objects: "))
     n = 17
     r = 2
 
     print('''{}! has factorial value: {}
-And the Combination value is {}'''.format(n, factorialFn(n), Combinn(n,r)))
+And the Combination value is {}'''.format(n, factorialFn(n), Combination(n,r)))
+
 
 if __name__ == "__main__":
     main()
